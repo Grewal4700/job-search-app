@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Job Search Journal</string>
+
+
+    <string name="action_settings">Action Settings</string>
+
+    <!-- Add Company -->
+    <string name="company_name">Name</string>
+    <string name="company_position">Position</string>
+    <string name="company_position_posting">Link to Job Posting</string>
+    <string name="company_size">Size</string>
+    <string name="company_location">Address</string>
+    <string name="company_goal_mission_statement">Purpose or Mission Statement</string>
+    <string name="misc_notes_about_company">Miscellaneous Notes About Company</string>
+    <string name="add_company_message">When you click \'save,\' we will search Glassdoor.com™ for some more company information (website, industry, and ratings). If this information is not found, you will be able to add it yourself.</string>
+    <string name="add_company_instructions">Fill in the fields below with information about a company!</string>
+
+    <string name="company_name_hint">What\'s the company\'s name?</string>
+    <string name="company_position_hint">What position are you applying for?</string>
+    <string name="company_position_posting_hint">Do you have a link to a job posting?</string>
+    <string name="company_size_hint">What size is the company?</string>
+    <string name="company_location_hint">Where are they located?</string>
+    <string name="company_goal_mission_statement_hint">Company\'s goal? What do they do?</string>
+    <string name="misc_notes_about_company_hint">Anything else you\'d like to include can go here.</string>
+
+    <!-- View Company -->
+    <string name="company_website">Website</string>
+    <string name="company_industry">Industry</string>
+    <string name="company_ratings">Company Ratings</string>
+    <string name="ratings_subtitle">(Powered by Glassdoor.com)</string>
+    <string name="company_overall_rating">Overall Rating</string>
+    <string name="company_culture_and_values_rating">Culture and Values</string>
+    <string name="company_senior_leadership_rating">Senior Leadership</string>
+    <string name="company_compensation_rating">Compensation and Benefits</string>
+    <string name="company_career_opportunities_rating">Career Opportunities</string>
+    <string name="company_work_life_balance_rating">Work/Life Balance</string>
+
+    <!-- Update Steps Activity -->
+    <string name="initial_contact_question">How did you initially contact this company?</string>
+    <string name="enter_interview_scheduling_information">Have an interview? Click here to record it!</string>
+    <string name="received_response_question">Get a job offer or not? Click to record results.</string>
+
+    <!-- Initial Contact Fragment -->
+    <string name="initial_contact">Initial Contact</string>
+    <string name="date_of_interaction_label">Date</string>
+    <string name="contact_name_label">Contact Name</string>
+    <string name="contact_phone_number_label">Contact Phone Number</string>
+    <string name="contact_email_address_label">Contact Email Address</string>
+    <string name="method_of_interaction_label">Contact Method</string>
+    <string name="what_did_you_discuss_label">What was discussed?</string>
+    <string name="date_of_interaction">When did you contact them?</string>
+    <string name="contact_name">Who did you speak to?</string>
+    <string name="contact_email_address">What\'s his/her email address?</string>
+    <string name="method_of_interaction">How did you contact him/her?</string>
+    <string name="what_did_you_discuss">What did you discuss with this individual?</string>
+    <string name="what_did_you_discuss_hint">Any other notes you want to record before the interview takes place?</string>
+    <string name="contact_phone_number">What is his/her phone number?</string>
+
+    <!-- Set Up Interview Fragment -->
+    <string name="set_up_interview">Scheduled Interview</string>
+    <string name="preinterview_notes">Pre-Interview Notes</string>
+    <string name="date_of_interview">What day is your interview?</string>
+    <string name="names_of_interviewers">Name(s) of Interviewers</string>
+    <string name="misc_notes">Miscellaneous Notes</string>
+    <string name="followup_notes">Post-Interview Notes</string>
+    <string name="who_is_interviewer">Who is/are your interviewer(ers)?</string>
+    <string name="followup_notes_edittext">Update this once your interview has happened! How did this interview go? Report on how it went.</string>
+
+    <!-- Interview Completed -->
+
+    <!-- Received Response Fragment -->
+    <string name="received_response">Received Response</string>
+    <string name="date_of_response">Date of Response</string>
+    <string name="received_offer">Received Offer</string>
+    <string name="no_offer">No Offer</string>
+    <string name="offer_amount">Offer Amount</string>
+    <string name="offer_deadline">Offer Deadline</string>
+
+</resources>

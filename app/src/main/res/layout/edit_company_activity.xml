@@ -1,0 +1,336 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:scrollbarFadeDuration="0">
+
+    <LinearLayout
+        android:id="@+id/editView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/company_id_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/company_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/company_id_label"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+
+            <EditText
+                android:id="@+id/company_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:inputType="textCapWords"
+                android:text="Company Name"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:id="@+id/company_position_label"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:paddingEnd="20dp"
+                android:text="@string/company_position"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/company_position"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toEndOf="@id/company_position_label"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:inputType="textCapWords"
+                android:padding="2dp"
+                android:text="@string/company_position" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="2dp"
+            android:background="@color/primaryColor" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:id="@+id/company_position_posting_label"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:paddingEnd="20dp"
+                android:text="@string/company_position_posting"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/company_position_posting"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toEndOf="@id/company_position_posting_label"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:inputType="textCapWords"
+                android:padding="2dp"
+                android:text="@string/company_position_posting" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="2dp"
+            android:background="@color/primaryColor" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:id="@+id/company_size_label"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:paddingEnd="20dp"
+                android:text="@string/company_size"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/company_size"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toEndOf="@id/company_size_label"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:inputType="textCapWords"
+                android:padding="2dp"
+                android:text="@string/company_size" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="2dp"
+            android:background="@color/primaryColor" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:id="@+id/company_location_label"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:paddingEnd="20dp"
+                android:text="@string/company_location"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/company_location"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toEndOf="@id/company_location_label"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:inputType="textCapWords"
+                android:padding="2dp"
+                android:text="@string/company_location" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="2dp"
+            android:background="@color/primaryColor" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:id="@+id/company_website_label"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:paddingEnd="20dp"
+                android:text="@string/company_website"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/company_website"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toEndOf="@id/company_website_label"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/company_website" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="2dp"
+            android:background="@color/primaryColor" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:id="@+id/company_industry_label"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:paddingEnd="20dp"
+                android:text="@string/company_industry"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/company_industry"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toEndOf="@id/company_industry_label"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:inputType="textCapWords"
+                android:padding="2dp"
+                android:text="@string/company_industry" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="2dp"
+            android:background="@color/primaryColor" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:id="@+id/company_goal_mission_statement_label"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:paddingEnd="20dp"
+                android:text="@string/company_goal_mission_statement"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/company_goal_mission_statement"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_toEndOf="@id/company_goal_mission_statement_label"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:inputType="textCapSentences"
+                android:padding="2dp"
+                android:text="@string/company_goal_mission_statement" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="2dp"
+            android:background="@color/primaryColor" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="6dp">
+
+            <TextView
+                android:id="@+id/company_miscellaneous_notes_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp"
+                android:paddingEnd="20dp"
+                android:text="@string/misc_notes_about_company"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/company_miscellaneous_notes"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/company_miscellaneous_notes_label"
+                android:background="@android:color/white"
+                android:inputType="textCapSentences"
+                android:lines="5"
+                android:padding="2dp"
+                android:text="@string/misc_notes_about_company" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
